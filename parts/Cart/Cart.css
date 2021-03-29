@@ -1,0 +1,47 @@
+.cart-container{
+  width: 70%;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 30px;
+  background-color: #FF7100;
+  box-shadow: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+}
+.cart-part__name{
+  padding: 15px;
+  font-weight: bold;
+}
+.cart-part__price{
+  padding: 15px;
+}
+.cart__close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  background-image: url(../../images/cancel.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  cursor: pointer;
+}
+.cart-part__info {
+  min-width: 300px;
+  border: 2px solid #EC893B;
+  background-color: #C1702F;
+}
+.cart-part__list-info {
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+.cart-part__btn_buy {
+  border: 2px solid #EC893B;
+  background-color: #C1702F;
+  cursor: pointer;
+}

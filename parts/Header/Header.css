@@ -1,0 +1,96 @@
+.header-main {
+  display: flex;
+  position: fixed;
+  background-color: #FF7100;
+  padding:5px;
+  z-index: 100;
+  width: 100%;
+  transition: 2s;
+  justify-content: space-around;
+}
+.header-main:hover{
+  background-color: #A84B00;
+}
+h1 {
+  cursor:default;
+}
+a {
+  text-decoration: none;
+}
+.header-amount {
+  flex-basis: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10%;
+	background-color: #C1702F;
+	border: 2px solid #EC893B;
+  align-self: center;
+  cursor: pointer;
+}
+.registration {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10%;
+  background-color: #C1702F;
+  border: 2px solid #EC893B;
+  align-self: center;
+  cursor: pointer;
+}
+.sign-in {
+  padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10%;
+	background-color: #C1702F;
+	border: 2px solid #EC893B;
+  align-self: center;
+  cursor: pointer;
+}
+.go_back {
+  padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10%;
+	background-color: #C1702F;
+	border: 2px solid #EC893B;
+  align-self: center;
+  cursor: pointer;
+}
+.registration_menu {
+  display: flex;
+  flex-flow: column wrap;
+  position: absolute;
+  justify-content: space-around;
+  border: solid 1px #fff;
+  transition: 2s;
+  background-color: #FF7100;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -200px;
+  width: 800px;
+  padding: 10px;
+}
+.registration_menu:hover{
+  background-color: #A84B00;
+}
+.registration__something {
+  border: 1px
+}
+.information {
+  background-color: #C1702F;
+  border: 0px;
+  min-width: 400px;
+}
+.btn__1 {
+  cursor: pointer;
+  background-color: #C1702F;
+  border: 1px;
+}

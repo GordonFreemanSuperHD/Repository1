@@ -1,0 +1,52 @@
+.pizzaList {
+  display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+	grid-gap: 40px;
+  width: 90%;
+	max-width: 1200px;
+	margin: 0px auto;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.food {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 1px #fff;
+	margin: 0px auto;
+	transition: 2s;
+  background-color: #FF7100;
+  width: 250px;
+  margin-top: 150px;
+  text-align: center;
+}
+.food:hover {
+  background-color: #A84B00
+}
+.food__img {
+  width: 100%;
+  object-fit: contain;
+}
+.food__name {
+  margin-bottom: bottom;
+  font-weight: bold;
+}
+.food__weight {
+
+}
+.food__price {
+
+}
+.food__btn {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid #EC893B;
+  background: #C1702F;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+.food__btn_active {
+  border: 1px solid transparent;
+  background-color: #D96000;
+}

@@ -1,0 +1,99 @@
+body {
+	background-image: url(../images/Gorbachev.jpg);
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	flex-direction: column;
+	font-family: "Roboto Condensed", sans-serif;
+	list-style: none;
+}
+/* #header {
+	color:#fff;
+	z-index: 100;
+	display:flex;
+	position:fixed;
+	background-color: #FF7100;
+	background-attachment: scroll;
+	transition:1s;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+	justify-content: space-around;
+}
+#header:hover {
+	background: #A84B00;
+}
+.nav_list li {
+	flex-basis: auto;
+	list-style: none;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10%;
+	background-color: #C1702F;
+	border: 2px solid #EC893B;
+}
+.nav_list {
+	display: flex;
+	width: 400px;
+	flex-flow: wrap row;
+}
+}
+.nav_button {
+	flex-basis: 20px;
+}
+#header a {
+	color: #fff;
+}
+.nav_list li:hover {
+	background: #D96000;
+}
+a {
+	text-decoration: none;
+}
+#content {
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	color: #fff;
+	display: grid;
+	text-align: center;
+}
+.pizzaList {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+	grid-gap: 40px;
+	max-width: 1200px;
+	margin:  auto;
+}
+.food {
+	background-color: #FF7100;
+	border: solid 1px #fff;
+	margin: 5px;
+	transition: 1s;
+}
+.food:hover {
+	background-color: #A84B00;
+}
+.order {
+	font-size:12px;
+	text-align: left;
+	display: flex;
+	justify-content: space-around;
+}
+.inCart {
+	cursor: pointer;
+	border: 1px solid #EC893B;
+	border-radius: 10%;
+	background-color: #C1702F;
+	transition: 1s;
+	padding: 1px;
+}
+.inCart:hover{
+	background-color: #D96000;
+}
+*/
